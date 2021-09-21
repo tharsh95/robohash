@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/robohash/static/css/main.0379e610.chunk.css",
-    "main.js": "/robohash/static/js/main.88ca39ae.chunk.js",
-    "main.js.map": "/robohash/static/js/main.88ca39ae.chunk.js.map",
+    "main.js": "/robohash/static/js/main.f0fcedf1.chunk.js",
+    "main.js.map": "/robohash/static/js/main.f0fcedf1.chunk.js.map",
     "runtime-main.js": "/robohash/static/js/runtime-main.b7c01ac7.js",
     "runtime-main.js.map": "/robohash/static/js/runtime-main.b7c01ac7.js.map",
     "static/js/2.59813993.chunk.js": "/robohash/static/js/2.59813993.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b7c01ac7.js",
     "static/js/2.59813993.chunk.js",
     "static/css/main.0379e610.chunk.css",
-    "static/js/main.88ca39ae.chunk.js"
+    "static/js/main.f0fcedf1.chunk.js"
   ]
 }
