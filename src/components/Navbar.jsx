@@ -53,7 +53,7 @@ const Navbar = () => {
                     return user
                 }).map((el, index) => {
                     return (
-                        <Main name={el.name}id={index + 1} email={el.email} />
+                        <Main key={el.id}name={el.name}id={index + 1} email={el.email} />
                     )
                 })}
             </div>
