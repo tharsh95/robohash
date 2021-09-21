@@ -33,7 +33,7 @@ h1{
 @media (min-width:392px) and (max-width:750px){
     .image__container   {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         column-gap: 25px;
         row-gap: 25px;
     }
