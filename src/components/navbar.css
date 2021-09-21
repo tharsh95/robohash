@@ -42,7 +42,15 @@ h1{
     .image__container   {
         display: grid;
         column-gap: 25px;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
+        row-gap: 25px;
+    }
+}
+@media (min-width:1000px) and (max-width:1300px) {
+    .image__container   {
+        display: grid;
+        column-gap: 25px;
+        grid-template-columns: 1fr 1fr 1fr ;
         row-gap: 25px;
     }
 }
