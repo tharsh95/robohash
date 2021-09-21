@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+.image__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* place-content: center; */
+    place-items: center;
+    border: 2px solid black;
+    margin-bottom: 100px;
+    column-gap: 0px;
+    padding-top: 20px;
+    row-gap: 25px;
+    overflow-y: scroll;
+    height: 500px;
+    margin-bottom: 250px;
+}
+body{
+    overflow-y: hidden ;
+}
+h1{
+    font-family: 'Creepster', cursive;
+    color: aqua;
+    font-size: 4rem;
+}
