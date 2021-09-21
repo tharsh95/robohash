@@ -22,3 +22,27 @@ h1{
     color: aqua;
     font-size: 4rem;
 }
+@media (max-width:392px){
+    .image__container   {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 25px;
+        row-gap: 25px;
+    }
+}
+@media (min-width:392px) and (max-width:750px){
+    .image__container   {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 25px;
+        row-gap: 25px;
+    }
+}
+@media (min-width:750px) and (max-width:1000px){
+    .image__container   {
+        display: grid;
+        column-gap: 25px;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 25px;
+    }
+}
