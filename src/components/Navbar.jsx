@@ -37,7 +37,7 @@ const Navbar = () => {
                                 height: '400px',
                                 position: 'absolute',
                                 top: '210px',
-                                left: '400px'
+                                left: '400px',
                             }
                         }
                     }>

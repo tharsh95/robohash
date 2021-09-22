@@ -1,12 +1,17 @@
 .image{
     width: 320px;
     height: 420px;
-    background-color: lightblue;
+    background-color: #9cdaf8;
+  background-image: linear-gradient(315deg, #9cdaf8 0%, #98fcbd 74%);
     border-radius: 4px;
     position: relative;
     /* bottom: 50%; */
+    transition: transform 450ms;
 }
 img{
     position: relative;
     top: -4%;
+}
+.image:hover{
+    transform: scale(1.09);
 }
