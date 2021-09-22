@@ -14,4 +14,5 @@ img{
 }
 .image:hover{
     transform: scale(1.09);
+    cursor: pointer;
 }
