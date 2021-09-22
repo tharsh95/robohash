@@ -13,6 +13,9 @@
     margin-bottom: 250px;
     user-select: none;
 }
+.image__container::-webkit-scrollbar{
+    display: none;
+}
 body{
     overflow-y: hidden ;
 }
