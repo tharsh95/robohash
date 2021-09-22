@@ -11,9 +11,9 @@ const Navbar = () => {
     useEffect(() => {
         async function fetchUser() {
             const response = await axios.get(`https://jsonplaceholder.typicode.com/users`)
-            // setUser(response.data)
+            console.log(response.data)
             setUser(response.data)
-            // user.map(el=>console.log(el.name))
+            
         }
         fetchUser()
     }, [])
@@ -51,9 +51,9 @@ const Navbar = () => {
                     ||
                     user.email.toLowerCase().includes(search.toLowerCase( )) )
                     return user
-                }).map((el, index) => {
+                }).map((el) => {
                     return (
-                        <Main key={el.id}name={el.name}id={index + 1} email={el.email} />
+                        <Main key={el.id}name={el.name}id={el.id} email={el.email} />
                     )
                 })}
             </div>
