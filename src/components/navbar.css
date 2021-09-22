@@ -28,7 +28,7 @@ h1{
     color: aqua;
     font-size: 4rem;
 }
-@media (max-width:392px){
+/* @media (max-width:392px){
     .image__container   {
         display: grid;
         grid-template-columns: 1fr;
@@ -59,4 +59,4 @@ h1{
         grid-template-columns: 1fr 1fr 1fr ;
         row-gap: 25px;
     }
-}
+} */
