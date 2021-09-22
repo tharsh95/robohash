@@ -46,11 +46,12 @@ const Navbar = () => {
             <div className="image__container">
                 {user.filter(user=>{
                     if(search === "")
-                    return user
+                    return (user)
                     else if(user.name.toLowerCase().includes(search.toLowerCase()) 
                     ||
                     user.email.toLowerCase().includes(search.toLowerCase( )) )
-                    return user
+                    return (user)
+                    return false
                 }).map((el) => {
                     return (
                         <Main key={el.id}name={el.name}id={el.id} email={el.email} />
